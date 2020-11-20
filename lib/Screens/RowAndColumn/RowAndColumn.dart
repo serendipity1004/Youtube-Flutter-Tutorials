@@ -292,73 +292,74 @@ class _RowAndColumnScreenState extends State<RowAndColumnScreen> {
       height: MediaQuery.of(context).size.height * 0.25,
       color: Colors.grey[200],
       child: Padding(
-          padding: EdgeInsets.all(16.0),
-          child: SingleChildScrollView(
-            child: Column(
-              children: [
-                _renderRadioTitle(
-                  title: 'MainAxisAlignment',
-                ),
-                _renderRadios(
-                  enumOptions: MainAxisAlignment.values,
-                  onChanged: (value) {
-                    setState(() {
-                      _mainAxisAlignment = value;
-                    });
-                  },
-                  groupValue: _mainAxisAlignment,
-                ),
-                _renderRadioTitle(
-                  title: 'CrossAxisAlignment',
-                ),
-                _renderRadios(
-                  enumOptions: CrossAxisAlignment.values,
-                  onChanged: (value) {
-                    setState(() {
-                      _crossAxisAlignment = value;
-                    });
-                  },
-                  groupValue: _crossAxisAlignment,
-                ),
-                _renderRadioTitle(
-                  title: 'VerticalDirection',
-                ),
-                _renderRadios(
-                  enumOptions: VerticalDirection.values,
-                  onChanged: (value) {
-                    setState(() {
-                      _verticalDirection = value;
-                    });
-                  },
-                  groupValue: _verticalDirection,
-                ),
-                _renderRadioTitle(
-                  title: 'TextDirection',
-                ),
-                _renderRadios(
-                  enumOptions: TextDirection.values,
-                  onChanged: (value) {
-                    setState(() {
-                      _textDirection = value;
-                    });
-                  },
-                  groupValue: _textDirection,
-                ),
-                _renderRadioTitle(
-                  title: 'MainAxisSize',
-                ),
-                _renderRadios(
-                  enumOptions: MainAxisSize.values,
-                  onChanged: (value) {
-                    setState(() {
-                      _mainAxisSize = value;
-                    });
-                  },
-                  groupValue: _mainAxisSize,
-                ),
-              ],
-            ),
-          )),
+        padding: EdgeInsets.all(16.0),
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              _renderRadioTitle(
+                title: 'MainAxisAlignment',
+              ),
+              _renderRadios(
+                enumOptions: MainAxisAlignment.values,
+                onChanged: (value) {
+                  setState(() {
+                    _mainAxisAlignment = value;
+                  });
+                },
+                groupValue: _mainAxisAlignment,
+              ),
+              _renderRadioTitle(
+                title: 'CrossAxisAlignment',
+              ),
+              _renderRadios(
+                enumOptions: CrossAxisAlignment.values,
+                onChanged: (value) {
+                  setState(() {
+                    _crossAxisAlignment = value;
+                  });
+                },
+                groupValue: _crossAxisAlignment,
+              ),
+              _renderRadioTitle(
+                title: 'VerticalDirection',
+              ),
+              _renderRadios(
+                enumOptions: VerticalDirection.values,
+                onChanged: (value) {
+                  setState(() {
+                    _verticalDirection = value;
+                  });
+                },
+                groupValue: _verticalDirection,
+              ),
+              _renderRadioTitle(
+                title: 'TextDirection',
+              ),
+              _renderRadios(
+                enumOptions: TextDirection.values,
+                onChanged: (value) {
+                  setState(() {
+                    _textDirection = value;
+                  });
+                },
+                groupValue: _textDirection,
+              ),
+              _renderRadioTitle(
+                title: 'MainAxisSize',
+              ),
+              _renderRadios(
+                enumOptions: MainAxisSize.values,
+                onChanged: (value) {
+                  setState(() {
+                    _mainAxisSize = value;
+                  });
+                },
+                groupValue: _mainAxisSize,
+              ),
+            ],
+          ),
+        ),
+      ),
     );
   }
 
