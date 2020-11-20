@@ -1,5 +1,6 @@
 import 'package:codefactory_youtube_flutter_tutorial/Layouts/index.dart';
 import 'package:codefactory_youtube_flutter_tutorial/Models/index.dart';
+import 'package:codefactory_youtube_flutter_tutorial/Screens/ProviderInfiniteScroll/ProviderInfiniteScrollScreen.dart';
 import 'package:codefactory_youtube_flutter_tutorial/Screens/index.dart';
 import 'package:flutter/material.dart';
 
@@ -16,6 +17,10 @@ class _HomeScreenState extends State<HomeScreen> {
         ListViewItem(
           name: 'Row & Column',
           page: RowAndColumnScreen(),
+        ),
+        ListViewItem(
+          name: 'Provider Infinite Scroll',
+          page: ProviderInfiniteScrollScreen(),
         ),
       ],
     );
