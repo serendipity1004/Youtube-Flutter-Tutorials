@@ -22,6 +22,10 @@ class _HomeScreenState extends State<HomeScreen> {
           name: 'Provider Infinite Scroll',
           page: ProviderInfiniteScrollScreen(),
         ),
+        ListViewItem(
+          name: 'Provider Optimistic Response',
+          page: ProviderOptimisticResponseScreen(),
+        ),
       ],
     );
   }
