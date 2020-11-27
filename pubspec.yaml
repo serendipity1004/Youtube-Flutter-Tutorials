@@ -22,6 +22,7 @@ environment:
 
 dependencies:
   provider: ^4.3.2
+  get: ^3.17.1
   flutter:
     sdk: flutter
 
@@ -44,6 +45,9 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  assets:
+    - assets/
 
   # To add assets to your application, add an assets section, like this:
   # assets:

@@ -1,5 +1,7 @@
 import 'package:codefactory_youtube_flutter_tutorial/Layouts/index.dart';
 import 'package:codefactory_youtube_flutter_tutorial/Models/index.dart';
+import 'package:codefactory_youtube_flutter_tutorial/Screens/CustomScrollView/CustomScrollViewScreen.dart';
+import 'package:codefactory_youtube_flutter_tutorial/Screens/GetxNavigation/GetxNavigationScreen.dart';
 import 'package:codefactory_youtube_flutter_tutorial/Screens/ProviderInfiniteScroll/ProviderInfiniteScrollScreen.dart';
 import 'package:codefactory_youtube_flutter_tutorial/Screens/index.dart';
 import 'package:flutter/material.dart';
@@ -25,6 +27,14 @@ class _HomeScreenState extends State<HomeScreen> {
         ListViewItem(
           name: 'Provider Optimistic Response',
           page: ProviderOptimisticResponseScreen(),
+        ),
+        ListViewItem(
+          name: 'Getx Navigation',
+          page: GetxNavigationScreen(),
+        ),
+        ListViewItem(
+          name: 'Custom ScrollView',
+          page: CustomScrollViewScreen(),
         ),
       ],
     );
