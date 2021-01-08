@@ -4,6 +4,7 @@ import 'package:codefactory_youtube_flutter_tutorial/Screens/CustomScrollView/Cu
 import 'package:codefactory_youtube_flutter_tutorial/Screens/GetxNavigation/GetxNavigationScreen.dart';
 import 'package:codefactory_youtube_flutter_tutorial/Screens/GetxStateManagement/GetxStateManagement.dart';
 import 'package:codefactory_youtube_flutter_tutorial/Screens/ProviderInfiniteScroll/ProviderInfiniteScrollScreen.dart';
+import 'package:codefactory_youtube_flutter_tutorial/Screens/Retrofit/Screens/RetrofitScreen.dart';
 import 'package:codefactory_youtube_flutter_tutorial/Screens/index.dart';
 import 'package:flutter/material.dart';
 
@@ -40,6 +41,10 @@ class _HomeScreenState extends State<HomeScreen> {
         ListViewItem(
           name: 'GetX State Management',
           page: GetxStateManagementScreen(),
+        ),
+        ListViewItem(
+          name: 'Retrofit Intro',
+          page: RetrofitScreen(),
         ),
       ],
     );
