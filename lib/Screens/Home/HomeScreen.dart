@@ -1,5 +1,6 @@
 import 'package:codefactory_youtube_flutter_tutorial/Layouts/index.dart';
 import 'package:codefactory_youtube_flutter_tutorial/Models/index.dart';
+import 'package:codefactory_youtube_flutter_tutorial/Screens/CustomKeyboard/CustomKeyboard.dart';
 import 'package:codefactory_youtube_flutter_tutorial/Screens/CustomScrollView/CustomScrollViewScreen.dart';
 import 'package:codefactory_youtube_flutter_tutorial/Screens/GetxNavigation/GetxNavigationScreen.dart';
 import 'package:codefactory_youtube_flutter_tutorial/Screens/GetxStateManagement/GetxStateManagement.dart';
@@ -45,6 +46,10 @@ class _HomeScreenState extends State<HomeScreen> {
         ListViewItem(
           name: 'Retrofit Intro',
           page: RetrofitScreen(),
+        ),
+        ListViewItem(
+          name: 'Custom Keyboard',
+          page: CustomKeyboard(),
         ),
       ],
     );
