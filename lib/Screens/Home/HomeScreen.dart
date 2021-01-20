@@ -1,6 +1,7 @@
 import 'package:codefactory_youtube_flutter_tutorial/Layouts/index.dart';
 import 'package:codefactory_youtube_flutter_tutorial/Models/index.dart';
 import 'package:codefactory_youtube_flutter_tutorial/Screens/CustomKeyboard/CustomKeyboard.dart';
+import 'package:codefactory_youtube_flutter_tutorial/Screens/CustomPaintHermesAppleWatch/CustomPaintHermesAppleWatch.dart';
 import 'package:codefactory_youtube_flutter_tutorial/Screens/CustomScrollView/CustomScrollViewScreen.dart';
 import 'package:codefactory_youtube_flutter_tutorial/Screens/GetxNavigation/GetxNavigationScreen.dart';
 import 'package:codefactory_youtube_flutter_tutorial/Screens/GetxStateManagement/GetxStateManagement.dart';
@@ -50,6 +51,10 @@ class _HomeScreenState extends State<HomeScreen> {
         ListViewItem(
           name: 'Custom Keyboard',
           page: CustomKeyboard(),
+        ),
+        ListViewItem(
+          name: 'Custom Paint',
+          page: CustomPaintHermesAppleWatch(),
         ),
       ],
     );
